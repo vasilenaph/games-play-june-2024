@@ -8,7 +8,7 @@ Softuni React Course Project
  - [x] CleanUp Client
  - [x] Add resources 
  - [x] Convert html to jsx
- - [ ] Separate html into components
+ - [x] Separate html into components
 ## 2. React Router
  - [ ] Install react-router-dom
  - [ ] Setup react-router-dom
