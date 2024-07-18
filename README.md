@@ -17,5 +17,6 @@ Softuni React Course Project
 ## 3. Create Service Layer
  - [x] Service layer architecture discussion
  - [x] Abstract requester
+ - [x] Add games api
 ## 4. Page Implementations
  - [ ] Game list
