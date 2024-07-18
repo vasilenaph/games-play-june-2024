@@ -18,5 +18,8 @@ Softuni React Course Project
  - [x] Service layer architecture discussion
  - [x] Abstract requester
  - [x] Add games api
+ - [x] Preseed pratice server
 ## 4. Page Implementations
  - [ ] Game list
+ - [ ] Details
+ - [ ] Home

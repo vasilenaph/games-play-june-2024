@@ -1,0 +1,18 @@
+{
+    "ff271172-1425-4b53-81ba-f35570eb6bc8": {
+        "title": "Satisfactory",
+        "category": "Automation",
+        "maxLevel": "4",
+        "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/526870/capsule_616x353.jpg?t=1718088881",
+        "summary": "Satisfactory is a first-person open-world factory building game with a dash of exploration and combat. Play alone or with friends, explore an alien planet, create multi-story factories, and enter conveyor belt heaven!",
+        "_id": "ff271172-1425-4b53-81ba-f35570eb6bc8"
+    },
+    "29de5252-743c-4ad3-903b-11c8275ecbea": {
+        "title": "Firewatch",
+        "category": "Adventure",
+        "maxLevel": "6",
+        "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/383870/capsule_616x353.jpg?t=1688484486",
+        "summary": "Firewatch is a single-player first-person video game where you, as a man named Henry, explore the Wyoming wilderness after taking a summer job as a fire lookout. What is supposed to be a peaceful respite from your complicated life takes a turn when you start to question some of the things that are happening to you.",
+        "_id": "29de5252-743c-4ad3-903b-11c8275ecbea"
+    }
+}
