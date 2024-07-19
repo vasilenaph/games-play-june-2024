@@ -20,6 +20,14 @@ Softuni React Course Project
  - [x] Add games api
  - [x] Preseed pratice server
 ## 4. Page Implementations
- - [ ] Game list
- - [ ] Details
- - [ ] Home
+ - [x] Game list
+ - [x] Details
+  - [x] Details link
+  - [x] Details route
+  - [x] Api function - getOne
+## 5. Comments (Advanced)
+  - [x] Create service for nested resource `comments`
+  - [x] Post comment to server
+  - [x] Read comments from server
+  - [x] Add comments in the component
+  - [й] Clear form

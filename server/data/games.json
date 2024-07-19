@@ -14,5 +14,13 @@
         "imageUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/383870/capsule_616x353.jpg?t=1688484486",
         "summary": "Firewatch is a single-player first-person video game where you, as a man named Henry, explore the Wyoming wilderness after taking a summer job as a fire lookout. What is supposed to be a peaceful respite from your complicated life takes a turn when you start to question some of the things that are happening to you.",
         "_id": "29de5252-743c-4ad3-903b-11c8275ecbea"
+    },
+    "5a994ad8-2a14-4f95-9a0e-0429f667bbfb": {
+        "title": "GTA V",
+        "category": "Action-Adventure",
+        "maxLevel": "8000",
+        "imageUrl": "https://image.api.playstation.com/cdn/EP1004/CUSA00411_00/eXsWlP0EkcVkLPHgU4pjflmg07252yU8.png?w=440",
+        "summary": "The story is about three protagonists: retired bank robber Michael De Santa, street gangster Franklin Clinton, and drug dealer and gunrunner Trevor Philips. They attempts to commit robberies while under pressure from a corrupt government agency and powerful criminals",
+        "_id": "5a994ad8-2a14-4f95-9a0e-0429f667bbfb"
     }
 }
