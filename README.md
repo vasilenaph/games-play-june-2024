@@ -44,11 +44,12 @@ Softuni React Course Project
     - [x] Login
     - [ ] Register
     - [ ] Logout
-  - [ ] Auth state & context
-  - [ ] Token management
-  - [ ] Login
+  - [x] Auth state & context
+  - [x] Token management
+  - [x] Login
   - [ ] Register
   - [ ] Logout
+  - [ ] Authorized requests
 ## 7. UI Implementation
   - [ ] Dynamic navigation
   - [ ] Create game
