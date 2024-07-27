@@ -50,10 +50,12 @@ Softuni React Course Project
   - [x] Register
     - [x] Add form validation
   - [ ] Logout
-  - [ ] Authorized requests
-## 7. UI Implementation
+  - [x] Authorized requests
+## 8. UI Implementation
   - [x] Dynamic navigation
-  - [ ] Create game
-    - [ ] API function
-    - [ ] Hook
+  - [x] Create game
+    - [x] API function
+    - [x] Hook
   - [ ] Latest games
+## 9. Refactoring 
+  - [ ] Extract auth state from App Compoment
