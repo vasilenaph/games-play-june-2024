@@ -15,6 +15,9 @@ function App() {
     const [authState, setAuthState] = useState({});
 
     const changeAuthState = (state) => {
+        // TODO: Quick solution, fix by implementing for persisted authstate 
+        localStorage.setItem('accessToken', state.accessToken);
+
         setAuthState(state);
     }
 
@@ -22,7 +25,7 @@ function App() {
         userId: authState._id,
         email: authState.email,
         accessToken: authState.accessToken,
-        isAutheticated: !!authState.email,
+        isAuthenticated: !!authState.email,
         changeAuthState,
     }
 

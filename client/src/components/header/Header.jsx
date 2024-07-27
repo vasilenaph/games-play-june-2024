@@ -13,16 +13,16 @@ export default function Header() {
                 {isAuthenticated
                     ?
                     (
-                        <div id="guest">
-                            <Link to="/login">Login</Link>
-                            <Link to="/register">Register</Link>
+                        <div id="user">
+                            <Link to="/games/create">Create Game</Link>
+                            <Link to="/logout">Logout</Link>
                         </div>
                     )
                     :
                     (
-                        <div id="user">
-                            <Link to="/games/create">Create Game</Link>
-                            <Link to="/logout">Logout</Link>
+                        <div id="guest">
+                            <Link to="/login">Login</Link>
+                            <Link to="/register">Register</Link>
                         </div>
                     )
                 }
