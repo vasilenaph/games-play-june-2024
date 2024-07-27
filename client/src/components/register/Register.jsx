@@ -25,7 +25,6 @@ export default function Register() {
             navigate("/");
         } catch (error) {
             setError(error.message);
-            console.log(error.message);
         }
     }
 
@@ -55,10 +54,10 @@ export default function Register() {
                     <label htmlFor="pass">Password:</label>
                     <input
                         type="password"
+                        id="register-password"
                         name="password"
                         value={values.password}
                         onChange={changeHandler}
-                        id="register-password"
                     />
 
                     <label htmlFor="con-pass">Confirm Password:</label>

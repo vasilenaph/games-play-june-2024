@@ -23,7 +23,7 @@ function App() {
         email: authState.email,
         accessToken: authState.accessToken,
         isAutheticated: !!authState.email,
-        changeAuthState
+        changeAuthState,
     }
 
     return (

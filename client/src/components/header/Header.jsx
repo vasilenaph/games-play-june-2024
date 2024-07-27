@@ -17,7 +17,6 @@ export default function Header() {
                             <Link to="/login">Login</Link>
                             <Link to="/register">Register</Link>
                         </div>
-
                     )
                     :
                     (
