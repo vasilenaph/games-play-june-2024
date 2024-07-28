@@ -21,8 +21,15 @@ export default function GameDetails() {
         values,
         changeHandler,
         submitHandler
-    } = useForm(initialValues, ({ comment }) => {
-        createComment(gameId, comment);
+    } = useForm(initialValues, async ({ comment }) => {
+        try {
+            const newComment = await createComment(gameId, comment);
+            setComments(oldComments => [...oldComments, newComment]);
+        } catch (error) {
+            console.log(error.message);
+        }
+
+
     });
 
     return (
