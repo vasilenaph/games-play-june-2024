@@ -60,3 +60,4 @@ Softuni React Course Project
 ## 9. Refactoring 
   - [x] Extract auth state from App Compoment
   - [x] Persist auth state
+  - [ ] Comments
