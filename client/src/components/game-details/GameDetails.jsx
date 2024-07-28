@@ -14,7 +14,7 @@ const initialValues = {
 export default function GameDetails() {
     const { gameId } = useParams();
     const createComment = useCreateComment();
-    const [comments, setComments] = useGetAllComments(gameId);
+    const [comments, dispatch] = useGetAllComments(gameId);
     const [game] = useGetOneGames(gameId);
     const { isAuthenticated } = useAuthContext();
     const {
@@ -24,7 +24,10 @@ export default function GameDetails() {
     } = useForm(initialValues, async ({ comment }) => {
         try {
             const newComment = await createComment(gameId, comment);
-            setComments(oldComments => [...oldComments, newComment]);
+            
+            // setComments(oldComments => [...oldComments, newComment]);
+            dispatch({ type: 'ADD_COMMENT', payload: newComment })
+
         } catch (error) {
             console.log(error.message);
         }
@@ -56,11 +59,9 @@ export default function GameDetails() {
                             <li key={comment._id} className="comment">
                                 <p>{comment.author.email}: {comment.text}</p>
                             </li>
-                        ))
+                        ))}
 
-                        }
-                        {
-                            comments.length === 0 &&
+                        {comments.length === 0 &&
                             <p className="no-comment">No comments.</p>
                         }
                     </ul>
