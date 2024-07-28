@@ -61,3 +61,5 @@ Softuni React Course Project
   - [x] Extract auth state from App Compoment
   - [x] Persist auth state
   - [x] Comments
+  - [x] Refactored comments with useReducer
+  - [x] Edit and delete ownership rendering
